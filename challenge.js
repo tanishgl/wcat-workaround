@@ -153,7 +153,7 @@ function displayFileTesting(fileArr, optionArr){
 
 function displayFile(content){
   for(let i=0;i<content.length;i++){
-    console.log(style.cns(content[i]));
+    console.log(content[i]);
   }
 }
 
